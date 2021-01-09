@@ -86,3 +86,547 @@ dab69169e2a39b9204df75ebd7cd1c15|file:///home/igor/physio/test.py|10|25|v|python
 	    "coc-bookmark": ">=1.3.2",
 b1b17b6ae4d405ab77ab0cfb8a876024|file:///home/igor/.config/nvim/plug-config/coc/coc-extensions.vim|19|14|V|vim
 	  \ 'coc-bookmark',
+41ad77926304424c077df2d6da7da0f0|file:///home/igor/.config/kitty/kitty.conf|380|10|V|conf
+	#: Tab bar {{{
+	
+	# tab_bar_edge bottom
+	
+	#: Which edge to show the tab bar on, top or bottom
+	
+	# tab_bar_margin_width 0.0
+	
+	#: The margin to the left and right of the tab bar (in pts)
+	
+	# tab_bar_style fade
+	
+	#: The tab bar style, can be one of: fade, separator, powerline, or
+	#: hidden. In the fade style, each tab's edges fade into the
+	#: background color, in the separator style, tabs are separated by a
+	#: configurable separator, and the powerline shows the tabs as a
+	#: continuous line.
+	
+	# tab_bar_min_tabs 2
+	
+	#: The minimum number of tabs that must exist before the tab bar is
+	#: shown
+	
+	# tab_switch_strategy previous
+	
+	#: The algorithm to use when switching to a tab when the current tab
+	#: is closed. The default of previous will switch to the last used
+	#: tab. A value of left will switch to the tab to the left of the
+	#: closed tab. A value of last will switch to the right-most tab.
+	
+	# tab_fade 0.25 0.5 0.75 1
+	
+	#: Control how each tab fades into the background when using fade for
+	#: the tab_bar_style. Each number is an alpha (between zero and one)
+	#: that controls how much the corresponding cell fades into the
+	#: background, with zero being no fade and one being full fade. You
+	#: can change the number of cells used by adding/removing entries to
+	#: this list.
+	
+	# tab_separator " ┇"
+	
+	#: The separator between tabs in the tab bar when using separator as
+	#: the tab_bar_style.
+	
+	# tab_title_template {title}
+	
+	#: A template to render the tab title. The default just renders the
+	#: title. If you wish to include the tab-index as well, use something
+	#: like: {index}: {title}. Useful if you have shortcuts mapped for
+	#: goto_tab N.
+	
+	# active_tab_foreground   #000
+	# active_tab_background   #eee
+	# active_tab_font_style   bold-italic
+	# inactive_tab_foreground #444
+	# inactive_tab_background #999
+	# inactive_tab_font_style normal
+	
+	#: Tab bar colors and styles
+	
+	#: }}}
+6e7442f0ce6eaeed9e5025339e28cdfd|file:///home/igor/.config/kitty/kitty.conf|400|1|V|conf
+	# Black
+	color0 #665c54
+	color8 #928374
+	
+	# Red
+	color1 #ea6962
+	color9 #ea6962
+	
+	# Green
+	color2 #a9b665
+	color10 #a9b665
+	
+	# Yellow
+	color3 #e78a4e
+	color11 #d8a657
+	
+	# Blue
+	color4 #7daea3
+	color12 #7daea3
+	
+	# Magenta
+	color5 #d3869b
+	color13 #d3869b
+	
+	# Cyan
+	color6 #89b482
+	color14 #89b482
+	
+	# White
+	color7 #d4be98
+	color15 #d4be98
+20fa9fb0bbce76fa6accc20cba92d861|file:///home/igor/.config/kitty/kitty.conf|418|1|V|conf
+	#: Advanced {{{
+	
+	# shell .
+	
+	#: The shell program to execute. The default value of . means to use
+	#: whatever shell is set as the default shell for the current user.
+	#: Note that on macOS if you change this, you might need to add
+	#: --login to ensure that the shell starts in interactive mode and
+	#: reads its startup rc files.
+	
+	# editor .
+	
+	#: The console editor to use when editing the kitty config file or
+	#: similar tasks. A value of . means to use the environment variables
+	#: VISUAL and EDITOR in that order. Note that this environment
+	#: variable has to be set not just in your shell startup scripts but
+	#: system-wide, otherwise kitty will not see it.
+	
+	# close_on_child_death no
+	
+	#: Close the window when the child process (shell) exits. If no (the
+	#: default), the terminal will remain open when the child exits as
+	#: long as there are still processes outputting to the terminal (for
+	#: example disowned or backgrounded processes). If yes, the window
+	#: will close as soon as the child process exits. Note that setting it
+	#: to yes means that any background processes still using the terminal
+	#: can fail silently because their stdout/stderr/stdin no longer work.
+	
+	# allow_remote_control no
+	
+	#: Allow other programs to control kitty. If you turn this on other
+	#: programs can control all aspects of kitty, including sending text
+	#: to kitty windows, opening new windows, closing windows, reading the
+	#: content of windows, etc.  Note that this even works over ssh
+	#: connections. You can chose to either allow any program running
+	#: within kitty to control it, with yes or only programs that connect
+	#: to the socket specified with the kitty --listen-on command line
+	#: option, if you use the value socket-only. The latter is useful if
+	#: you want to prevent programs running on a remote computer over ssh
+	#: from controlling kitty.
+	
+	# env 
+	
+	#: Specify environment variables to set in all child processes. Note
+	#: that environment variables are expanded recursively, so if you
+	#: use::
+	
+	#:     env MYVAR1=a
+	#:     env MYVAR2=${MYVAR1}/${HOME}/b
+	
+	#: The value of MYVAR2 will be a/<path to home directory>/b.
+	
+	# update_check_interval 24
+	
+	#: Periodically check if an update to kitty is available. If an update
+	#: is found a system notification is displayed informing you of the
+	#: available update. The default is to check every 24 hrs, set to zero
+	#: to disable.
+	
+	# startup_session none
+	
+	#: Path to a session file to use for all kitty instances. Can be
+	#: overridden by using the kitty --session command line option for
+	#: individual instances. See
+	#: https://sw.kovidgoyal.net/kitty/index.html#sessions in the kitty
+	#: documentation for details. Note that relative paths are interpreted
+	#: with respect to the kitty config directory. Environment variables
+	#: in the path are expanded.
+	
+	# clipboard_control write-clipboard write-primary
+	
+	#: Allow programs running in kitty to read and write from the
+	#: clipboard. You can control exactly which actions are allowed. The
+	#: set of possible actions is: write-clipboard read-clipboard write-
+	#: primary read-primary. You can additionally specify no-append to
+	#: disable kitty's protocol extension for clipboard concatenation. The
+	#: default is to allow writing to the clipboard and primary selection
+	#: with concatenation enabled. Note that enabling the read
+	#: functionality is a security risk as it means that any program, even
+	#: one running on a remote server via SSH can read your clipboard.
+	
+	# term xterm-kitty
+	
+	#: The value of the TERM environment variable to set. Changing this
+	#: can break many terminal programs, only change it if you know what
+	#: you are doing, not because you read some advice on Stack Overflow
+	#: to change it. The TERM variable is used by various programs to get
+	#: information about the capabilities and behavior of the terminal. If
+	#: you change it, depending on what programs you run, and how
+	#: different the terminal you are changing it to is, various things
+	#: from key-presses, to colors, to various advanced features may not
+	#: work.
+	
+	#: }}}
+69f9f9391e5a05782d971596ef6b4881|file:///home/igor/.config/kitty/kitty.conf|419|1|V|conf
+	#: OS specific tweaks {{{
+	
+	# macos_titlebar_color system
+	
+	#: Change the color of the kitty window's titlebar on macOS. A value
+	#: of system means to use the default system color, a value of
+	#: background means to use the background color of the currently
+	#: active window and finally you can use an arbitrary color, such as
+	#: #12af59 or red. WARNING: This option works by using a hack, as
+	#: there is no proper Cocoa API for it. It sets the background color
+	#: of the entire window and makes the titlebar transparent. As such it
+	#: is incompatible with background_opacity. If you want to use both,
+	#: you are probably better off just hiding the titlebar with
+	#: hide_window_decorations.
+	
+	# macos_option_as_alt no
+	
+	#: Use the option key as an alt key. With this set to no, kitty will
+	#: use the macOS native Option+Key = unicode character behavior. This
+	#: will break any Alt+key keyboard shortcuts in your terminal
+	#: programs, but you can use the macOS unicode input technique. You
+	#: can use the values: left, right, or both to use only the left,
+	#: right or both Option keys as Alt, instead.
+	
+	# macos_hide_from_tasks no
+	
+	#: Hide the kitty window from running tasks (Option+Tab) on macOS.
+	
+	# macos_quit_when_last_window_closed no
+	
+	#: Have kitty quit when all the top-level windows are closed. By
+	#: default, kitty will stay running, even with no open windows, as is
+	#: the expected behavior on macOS.
+	
+	# macos_window_resizable yes
+	
+	#: Disable this if you want kitty top-level (OS) windows to not be
+	#: resizable on macOS.
+	
+	# macos_thicken_font 0
+	
+	#: Draw an extra border around the font with the given width, to
+	#: increase legibility at small font sizes. For example, a value of
+	#: 0.75 will result in rendering that looks similar to sub-pixel
+	#: antialiasing at common font sizes.
+	
+	# macos_traditional_fullscreen no
+	
+	#: Use the traditional full-screen transition, that is faster, but
+	#: less pretty.
+	
+	# macos_show_window_title_in all
+	
+	#: Show or hide the window title in the macOS window or menu-bar. A
+	#: value of window will show the title of the currently active window
+	#: at the top of the macOS window. A value of menubar will show the
+	#: title of the currently active window in the macOS menu-bar, making
+	#: use of otherwise wasted space. all will show the title everywhere
+	#: and none hides the title in the window and the menu-bar.
+	
+	# macos_custom_beam_cursor no
+	
+	#: Enable/disable custom mouse cursor for macOS that is easier to see
+	#: on both light and dark backgrounds. WARNING: this might make your
+	#: mouse cursor invisible on dual GPU machines.
+	
+	# linux_display_server auto
+	
+	#: Choose between Wayland and X11 backends. By default, an appropriate
+	#: backend based on the system state is chosen automatically. Set it
+	#: to x11 or wayland to force the choice.
+	
+	#: }}}
+630e19bf4f36ce63e13728097f388b77|file:///home/igor/.config/kitty/kitty.conf|16|1|V|conf
+	# adjust_line_height  0
+	# adjust_column_width 0
+	# symbol_map U+E0A0-U+E0A2,U+E0B0-U+E0B3 PowerlineSymbols
+	
+	#: Map the specified unicode codepoints to a particular font. Useful
+	#: if you need special rendering for some symbols, such as for
+	#: Powerline. Avoids the need for patched fonts. Each unicode code
+	#: point is specified in the form U+<code point in hexadecimal>. You
+	#: can specify multiple code points, separated by commas and ranges
+	#: separated by hyphens. symbol_map itself can be specified multiple
+	#: times. Syntax is::
+	
+	#:     symbol_map codepoints Font Family Name
+	
+	# disable_ligatures never
+	
+	#: Choose how you want to handle multi-character ligatures. The
+	#: default is to always render them.  You can tell kitty to not render
+	#: them when the cursor is over them by using cursor to make editing
+	#: easier, or have kitty never render them at all by using always, if
+	#: you don't like them. The ligature strategy can be set per-window
+	#: either using the kitty remote control facility or by defining
+	#: shortcuts for it in kitty.conf, for example::
+	
+	#:     map alt+1 disable_ligatures_in active always
+	#:     map alt+2 disable_ligatures_in all never
+	#:     map alt+3 disable_ligatures_in tab cursor
+	
+	# box_drawing_scale 0.001, 1, 1.5, 2
+	
+	#: Change the sizes of the lines used for the box drawing unicode
+	#: characters These values are in pts. They will be scaled by the
+	#: monitor DPI to arrive at a pixel value. There must be four values
+	#: corresponding to thin, normal, thick, and very thick lines.
+1949b988e3a81727037b04d3bc6023be|file:///home/igor/.config/kitty/kitty.conf|20|12|v|conf
+	#282828
+153651c2fe1eaf9f51e9098285adce7e|file:///home/igor/.config/kitty/kitty.conf|20|12|v|conf
+	#1E1E1E
+686feea2f7a1eeceba5c226ec8f3af6b|file:///home/igor/.config/kitty/kitty.conf|24|23|v|conf
+	1e1e1e
+ea2459317b2c68045fde9fcf1a5a15b2|file:///home/igor/.config/kitty/kitty.conf|9|18|v|conf
+	Fira Code
+a9caad90581726ab3e666a9770ec01b2|file:///home/igor/.bashrc|119|1|V|sh
+	# Powerline
+	if [ -f ~/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh ]; then
+	    source ~/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
+	fi
+	
+	# Powerline-shell
+	function _update_ps1() {
+	    PS1=$(powerline-shell $?)
+	}
+	
+	if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
+	    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
+	fi
+	
+3778e315942e366413cb80955b72eb61|file:///home/igor/.zshrc|74|1|V|zsh
+	
+	# User configuration
+	
+	# export MANPATH="/usr/local/man:$MANPATH"
+	
+	# You may need to manually set your language environment
+	# export LANG=en_US.UTF-8
+	
+	# Preferred editor for local and remote sessions
+	# if [[ -n $SSH_CONNECTION ]]; then
+	#   export EDITOR='vim'
+	# else
+	#   export EDITOR='mvim'
+	# fi
+	
+	# Compilation flags
+	# export ARCHFLAGS="-arch x86_64"
+	
+	# Set personal aliases, overriding those provided by oh-my-zsh libs,
+	# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+	# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+	# For a full list of active aliases, run `alias`.
+	#
+	# Example aliases
+	# alias zshconfig="mate ~/.zshrc"
+	# alias ohmyzsh="mate ~/.oh-my-zsh"
+bc5acc59b95cc14c91d075beb70310f1|file:///home/igor/.zshrc|55|1|V|zsh
+	# Uncomment the following line if you want to change the command execution time
+	# stamp shown in the history command output.
+	# You can set one of the optional three formats:
+	# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+	# or set a custom format using the strftime function format specifications,
+	# see 'man strftime' for details.
+	# HIST_STAMPS="mm/dd/yyyy"
+	
+	# Would you like to use another custom folder than $ZSH/custom?
+	# ZSH_CUSTOM=/path/to/new-custom-folder
+	
+	# Which plugins would you like to load?
+	# Standard plugins can be found in $ZSH/plugins/
+	# Custom plugins may be added to $ZSH_CUSTOM/plugins/
+	# Example format: plugins=(rails git textmate ruby lighthouse)
+	# Add wisely, as too many plugins slow down shell startup.
+f1979e0a6228e51999de08256bc631f8|file:///home/igor/.zshrc|13|10|V|zsh
+	# Set list of themes to pick from when loading at random
+	# Setting this variable when ZSH_THEME=random will cause zsh to load
+	# a theme from this variable instead of looking in $ZSH/themes/
+	# If set to an empty array, this variable will have no effect.
+	# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+	
+	# Uncomment the following line to use case-sensitive completion.
+	# CASE_SENSITIVE="true"
+	
+	# Uncomment the following line to use hyphen-insensitive completion.
+	# Case-sensitive completion must be off. _ and - will be interchangeable.
+	# HYPHEN_INSENSITIVE="true"
+	
+	# Uncomment the following line to disable bi-weekly auto-update checks.
+	# DISABLE_AUTO_UPDATE="true"
+	
+	# Uncomment the following line to automatically update without prompting.
+	# DISABLE_UPDATE_PROMPT="true"
+	
+	# Uncomment the following line to change how often to auto-update (in days).
+	# export UPDATE_ZSH_DAYS=13
+	
+	# Uncomment the following line if pasting URLs and other text is messed up.
+	# DISABLE_MAGIC_FUNCTIONS="true"
+	
+	# Uncomment the following line to disable colors in ls.
+	# DISABLE_LS_COLORS="true"
+	
+	# Uncomment the following line to disable auto-setting terminal title.
+	# DISABLE_AUTO_TITLE="true"
+	
+	# Uncomment the following line to enable command auto-correction.
+	# ENABLE_CORRECTION="true"
+	
+	# Uncomment the following line to display red dots whilst waiting for completion.
+	# COMPLETION_WAITING_DOTS="true"
+	
+	# Uncomment the following line if you want to disable marking untracked files
+	# under VCS as dirty. This makes repository status check for large repositories
+	# much, much faster.
+	# DISABLE_UNTRACKED_FILES_DIRTY="true"
+	
+4d097cde3bd3885b08730b2875cf8d10|file:///home/igor/.zshrc|13|1|V|zsh
+	# Setting this variable when ZSH_THEME=random will cause zsh to load
+	# Set list of themes to pick from when loading at random
+	# a theme from this variable instead of looking in $ZSH/themes/
+	# If set to an empty array, this variable will have no effect.
+	# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+	
+	# Uncomment the following line to use case-sensitive completion.
+	# CASE_SENSITIVE="true"
+	
+	# Uncomment the following line to use hyphen-insensitive completion.
+	# Case-sensitive completion must be off. _ and - will be interchangeable.
+	# HYPHEN_INSENSITIVE="true"
+	
+	# Uncomment the following line to disable bi-weekly auto-update checks.
+	# DISABLE_AUTO_UPDATE="true"
+	
+	# Uncomment the following line to automatically update without prompting.
+	# DISABLE_UPDATE_PROMPT="true"
+	
+	# Uncomment the following line to change how often to auto-update (in days).
+	# export UPDATE_ZSH_DAYS=13
+	
+	# Uncomment the following line if pasting URLs and other text is messed up.
+	# DISABLE_MAGIC_FUNCTIONS="true"
+	
+	# Uncomment the following line to disable colors in ls.
+	# DISABLE_LS_COLORS="true"
+	
+	# Uncomment the following line to disable auto-setting terminal title.
+	# DISABLE_AUTO_TITLE="true"
+	
+	# Uncomment the following line to enable command auto-correction.
+	# ENABLE_CORRECTION="true"
+	
+	# Uncomment the following line to display red dots whilst waiting for completion.
+	# COMPLETION_WAITING_DOTS="true"
+	
+	# Uncomment the following line if you want to disable marking untracked files
+	# under VCS as dirty. This makes repository status check for large repositories
+	# much, much faster.
+	# DISABLE_UNTRACKED_FILES_DIRTY="true"
+	
+36292322c241625a894d8a17451876d8|file:///home/igor/.zshrc|7|1|V|zsh
+	# Set name of the theme to load --- if set to "random", it will
+	# load a random theme each time oh-my-zsh is loaded, in which case,
+	# to know which specific one was loaded, run: echo $RANDOM_THEME
+	# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+89a941bf7fbc9bd7ccd2be3cba3926a8|file:///home/igor/.zshrc|3|1|V|zsh
+	
+	# Path to your oh-my-zsh installation.
+a22b0ef173cde81045c001af006da3c5|file:///home/igor/.zshrc|1|16|V|zsh
+	# If you come from bash you might have to change your $PATH.
+e206a54e97690cce50cc872dd70ee896|file:///home/igor/.bashrc|134|13|v|sh
+	linux
+b4dad0fe5fbef2c0e24d9db1cc69e5a2|file:///home/igor/.zshrc|4|1|v|zsh
+	term
+c1616f3c8962623e339417e6c16a5fb9|file:///home/igor/.zshrc|6|12|v|zsh
+	robbyrussell
+826fc21edbbc098f364b2ba336b59562|file:///home/igor/.zshrc|7|1|V|zsh
+	# TERM=xterm
+38e92bf26f1adfc864d3dc9f0aef999a|file:///home/igor/.zshrc|1|44|V|zsh
+	# export PATH=$HOME/bin:/usr/local/bin:$PATH
+9a89a78203dd237d6bb302ea1545e333|file:///home/igor/.zshrc|1|1|V|zsh
+	[ -f /usr/share/fzf/completion.zsh ] && source /usr/share/fzf/completion.zsh
+	[ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
+86239457b4d85733d369bc4a36d47b36|file:///home/igor/.zshrc|13|1|V|zsh
+	[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+b24ca3c40399912bd560eb08bb5790f2|file:///home/igor/.oh-my-zsh/themes/onedark.zsh-theme|1|1|V|
+	
+	# The One Theme v1.0.0
+	#
+	# https://github.com/benniemosher/the-one-theme
+	#
+	# Copyright 2015, All rights reserved
+	#
+	# Code licensed under the MIT license
+	# http://benniemosher.mit-license.org
+	#
+	# @author Bennie Mosher <benniemosher@gmail.com>
+	
+07f8318f740f73cb4b0b34c11c0d8dc7|file:///home/igor/.zshrc|8|12|v|zsh
+	spaceship
+63a913e9710657c7f1f17143da1e2f13|file:///home/igor/.zshrc|2|1|v|zsh
+	[ -f /usr/share/fzf/key-bindings.zsh ] && 
+4fd7593da345f59e2d858f89ba275cf6|file:///home/igor/.zshrc|1|1|v|zsh
+	[ -f /usr/share/fzf/completion.zsh ] &&
+565f9fd78daac3f909218b6b22990eec|file:///home/igor/.zshrc|1|1|V|zsh
+	[ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
+	[ -f /usr/share/fzf/completion.zsh ] && source /usr/share/fzf/completion.zsh
+53bb28d370ac6043e35cdeeff291bdb4|file:///home/igor/.zshrc|4|1|V|zsh
+	[ -f $HOME/.config/zsh/conda.zsh ] && source $HOME/.config/zsh/conda.zsh
+618d2cd3d2302c9ce5d84b541e8b6194|file:///home/igor/.zshrc|5|30|v|zsh
+	miniconda3
+14c4b06b824ec593239362517f538b29|file:///home/igor/.zshrc|5|21|v|zsh
+	username
+f9aae5fda8d810a29f12d1e61b4ab25f|file:///home/igor/.zshrc|5|15|v|zsh
+	Users
+3b064354472efe2a1699d35cdf561b96|file:///home/igor/.zshrc|6|5|V|zsh
+	#Auto
+	
+1c29160be51faa0986b0ab9f8ade9575|file:///home/igor/.zshrc|18|8|v|zsh
+	/home/igor/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+186fc5120952be66792d4b84e38aa1d1|file:///home/igor/.zshrc|18|1|V|zsh
+	[ -f  /home/igor/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh] && source /home/igor/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+497c04fc0a7a95c182357c6f7772f2a3|file:///home/igor/.zshrc|2|1|V|zsh
+	[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+	[ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
+	[ -f /usr/share/fzf/completion.zsh ] && source /usr/share/fzf/completion.zsh
+	
+	#syntax 
+	[ -f  /home/igor/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh] && source /home/igor/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+72ad7046489c3e4ab15483d09b460dc8|file:///home/igor/.zshrc|1|1|V|zsh
+	# FZF stuff
+	[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+	[ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
+	[ -f /usr/share/fzf/completion.zsh ] && source /usr/share/fzf/completion.zsh
+	
+	#syntax 
+	[ -f  /home/igor/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh] && source /home/igor/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+	
+3373bb80e922bb13000217e311eb6f48|file:///home/igor/.zshrc|18|1|V|zsh
+	#syntax 
+	[ -f  /home/igor/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh] && source /home/igor/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+	
+e73301a8c3aa09e32b1d28b22a7dbdeb|file:///home/igor/.zshrc|20|1|V|zsh
+	zstyle ':vcs_info:git:*' formats 'on branch %b '
+53f526fe6f729c474097c6016768c6ba|file:///home/igor/.zshrc|22|1|V|zsh
+	zstyle ':vcs_info:git*' formats "%s  %r/%S %b (%a) %m%u%c "
+	PROMPT='%n in ${PWD/#$HOME/~} ${vcs_info_msg_0_} >'
+a6afe635d64e2fb8323d51807b6ae6df|file:///home/igor/.zshrc|20|1|V|zsh
+	setopt PROMPT_SUBST
+e43c3eae9558a80a4fc340d2cb65893c|file:///home/igor/.zshrc|1|40|v|zsh
+	source $HOME/.config/zsh/prompt.zsh
+17938482cd22b1badfb720fc8c1fc447|file:///home/igor/.zshrc|2|7|V|zsh
+	source 

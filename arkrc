@@ -1,12 +1,13 @@
 [ExtractDialog]
-DirHistory[$e]=$HOME/
+DirHistory[$e]=$HOME/Downloads/,$HOME/
 Height 1080=794
-Width 2560=836
+Width 2560=855
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME,file:$HOME
+Recent Files[$e]=file:$HOME
 Recent URLs[$e]=file:$HOME/Downloads/
 detailViewIconSize=0
+iconViewIconSize=43
 
 [KTextEditor Document]
 Allow End of Line Detection=true
@@ -99,15 +100,15 @@ Word Completion Remove Tail=true
 
 [MainWindow]
 Height 1080=480
-State=AAAA/wAAAAD9AAAAAAAAAoAAAAGcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAGdAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 StatusBar=Disabled
 ToolBarsMovable=Disabled
 Width 2560=640
 splitterSizes=426,213
 
 [Recent Files]
-File1[$e]=$HOME/Downloads/font.zip
-Name1[$e]=font.zip
+File1[$e]=$HOME/Downloads/JetBrainsMono.zip
+Name1[$e]=JetBrainsMono.zip
 
 [Viewer]
 Height 1080=814

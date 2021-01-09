@@ -1,3 +1,19 @@
+/home/igor/.zshrc
+/home/igor/.config/zsh/prompt.zsh
+/home/igor/
+/home/igor/.fzf.zsh
+/home/igor/.zsh
+/home/igor/.oh-my-zsh/themes/onedark.zsh-theme
+/home/igor/.oh-my-zsh/themes/muse.zsh-theme
+/home/igor/.bashrc
+/home/igor/.bash_profile
+/home/igor/.config/kitty/kitty-gruvbox.conf
+/home/igor/.config/kitty/kitty.conf
+/home/igor/.config/kitty/kitty
+/home/igor/.config/nvim/vim-plug/plugins.vim
+/home/igor/.config/nvim/coc-settings.json
+/home/igor/.config/nvim/keys/which-key.vim
+/home/igor/.config/nvim/keys/mappings.vim
 /home/igor/.config/nvim/plug-config/coc/coc-extensions.vim
 /home/igor/.config/nvim/init.vim
 /home/igor/.config/coc/extensions/package.json
@@ -5,7 +21,6 @@
 /home/igor/physio/mimicIsample/037/03700162.txt
 /home/igor/physio/mimicIsample/037/037.abp
 /home/igor/physio/test.py
-/home/igor/.config/nvim/vim-plug/plugins.vim
 /home/igor/.config/nvim/autoload/plugged/galaxyline.nvim/plugin/galaxyline.vim
 /home/igor/.config/nvim/autoload/plugged/galaxyline.nvim/lua/galaxyline/colors.lua
 /home/igor/.config/nvim/autoload/plugged/galaxyline.nvim/lua/galaxyline.lua
@@ -18,7 +33,6 @@
 /home/igor/.config/nvim/themes/airline.vim
 /home/igor/.config/nvim/plug-config/sneak.vim
 /home/igor/.config/nvim/themes/spaceline.vim
-/home/igor/.config/kitty/kitty.conf
 /home/igor/.config/nvim/themes/nvcode.vim
 /home/igor/.config/nvim/themes/material.vim
 /home/igor/.config/nvim/themes/nord.vim
