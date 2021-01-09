@@ -9,3 +9,15 @@ Mode=Normal
 Mode Set By User=false
 Time=2021,1,7,19,43,50
 URL=file:///home/igor/Downloads/table.txt
+
+[file:///home/igor/physio/mimicIsample/037/RECORDS]
+Bookmarks=
+Checksum=ebb193bf56a301755469442dc82e7229e9da5399
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2021,1,9,15,25,48
+URL=file:///home/igor/physio/mimicIsample/037/RECORDS

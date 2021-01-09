@@ -1,5 +1,7 @@
 [Added Associations]
 inode/directory=thunar.desktop;
+text/html=org.gnome.Builder.desktop;nvim.desktop;
+text/plain=org.kde.kate.desktop;
 
 [Default Applications]
 inode/directory=thunar.desktop;

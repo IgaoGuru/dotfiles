@@ -1,0 +1,88 @@
+e467ce2a67c62ce31a9ad352c09a5c80|file:///home/igor/.config/nvim/themes/airline.vim|40|24|v|vim
+	gruvbox
+e34db09629a2bcec5602b4b20281aa20|file:///home/igor/.config/nvim/themes/airline.vim|50|32|v|vim
+	NVCode
+cb06df458e9a72476d2e0b2998647f91|file:///home/igor/.config/nvim/themes/airline.vim|50|32|v|vim
+	Igor
+7b571ec5a348ca760bf1ef0d9782572c|file:///home/igor/.config/nvim/themes/spaceline.vim|2|32|v|vim
+	mach2
+b3da7d8cf803b57f1b42958fd859b94d|file:///home/igor/.config/nvim/themes/airline.vim|50|32|v|vim
+	NVcode
+f4a02571d77f4b8be3743ccd17389362|file:///home/igor/physio/test.py|10|25|v|python
+	sample-data
+0b20c63abdbad0cf6e1a15004a71ca20|file:///home/igor/physio/test.py|10|38|v|python
+	a103l
+05f65ed01981987163a8125a0283a7ab|file:///home/igor/physio/test.py|3|8|V|python
+	%matplotlib inline
+e27a589314f75ac72a9d6840fb288e38|file:///home/igor/physio/test.py|19|4|V|python
+	igor()
+95d3096c7097c86d08ce23e64f4f7d51|file:///home/igor/physio/test.py|16|1|V|python
+	def igor():
+	    pass
+	
+	o
+109bedf2e2f8ced013c7c24cf2899f70|file:///home/igor/physio/test.py|13|13|V|python
+	print('heyo')
+dea7343154e5f1904408dce81a1657ed|file:///home/igor/physio/test.py|11|12|V|python
+	print('sup')
+143c220fb60c83a589ffb366506144d6|file:///home/igor/physio/test.py|10|16|V|python
+	record = wfdb.rdrecord('/home/igor/physio/mimicIsample/037/03700001') 
+	wfdb.plot_wfdb(record=record, title='Record a103l from PhysioNet Challenge 2015') 
+969368b3d30e9e4e441c2b286ccf719d|file:///home/igor/physio/test.py|9|14|V|python
+	print('heyyy')
+11c1483649675efefb52653c8dbfe4d4|file:///home/igor/physio/test.py|10|38|v|python
+	Record a103l from PhysioNet Challenge 2015
+a0ef9bb056373c874516e6d584bd9385|file:///home/igor/physio/test.py|9|69|v|python
+	, channels=[1, 3]
+8c73a98a300905900337f535531dfca6|file:///home/igor/physio/test.py|10|14|v|python
+	shape
+736b91750e516139acc13c5eb6564f92|file:///home/igor/physio/test.py|10|14|v|python
+	attributes
+f3af2fb5b315b758ee36f1e16dad7e9c|file:///home/igor/physio/test.py|10|23|V|python
+	print(record.file_name)
+f5ab99b38ba1d5ce0b091373492f9902|file:///home/igor/physio/test.py|13|14|v|python
+	sigarray
+be2ddc19cd1a34089847ac63780a3b2f|file:///home/igor/physio/test.py|9|60|v|python
+	03700001
+3aeabe817df72f50751efa1050022a99|file:///home/igor/physio/test.py|13|23|V|python
+	print(record.p_signal.shape)
+9d9d72b0130dbf99cf4e7edb1698a404|file:///home/igor/physio/test.py|14|47|v|python
+	:])}')
+30ca3397356f572cf1419c94558df48b|file:///home/igor/physio/test.py|15|17|V|python
+	np.count_nonzero(~np.isnan(data))
+8d777f385d3dfec8815d20f7496026dc|file:///home/igor/physio/test.py|14|28|v|python
+	data
+11fb72937abd3add98eb6968cf9342b2|file:///home/igor/physio/test.py|14|10|v|python
+	np.count_nonzero(~np.isnan(record.psignal[:,0]))
+dd58bf8b111f554ca7cb38ac0a813b95|file:///home/igor/physio/test.py|13|27|V|python
+	print(record.p_signal[:,0])
+e2942a04780e223b215eb8b663cf5353|file:///home/igor/physio/test.py|14|13|v|python
+	count
+0ee0b788f47dc891de7f828cd64b917c|file:///home/igor/physio/test.py|14|56|v|python
+	record.p_signal[:,0]
+f72259dc7c8076dbccd70da3a34fd400|file:///home/igor/physio/test.py|12|13|V|python
+	print("AAAAAAAAAAAAAAAAAAAAAA")
+49511936534e7b37d0f773903636f576|file:///home/igor/physio/test.py|13|9|V|python
+	print('\n')
+9ad6dbfe9da7f00b57bfd3289740021b|file:///home/igor/physio/test.py|17|17|V|python
+	print(np.isnan(c1
+ff1193e14b5e1c0a053a60825d5fe56b|file:///home/igor/physio/test.py|17|29|v|python
+	c1[np.isnan(c1)]
+edd04d9d350d03924bdb02aff2be2397|file:///home/igor/physio/test.py|17|7|v|python
+	c1[~np.isnan(c1)]
+9d2eaea2b54cabd8c578cfafa3c3d753|file:///home/igor/physio/test.py|9|80|v|python
+	,1,2
+ce4cbf85248176e1360b1a6195b95c9f|file:///home/igor/physio/test.py|9|70|v|python
+	channels=[] 
+519213e3cdc687d6fab4127ddf9393fa|file:///home/igor/physio/test.py|9|60|v|python
+	0410001
+f66d25c945397fa0d657d7d11b10b129|file:///home/igor/physio/test.py|9|1|V|python
+	record = wfdb.rdrecord('/home/igor/physio/mimicIsample/037/03700009', return_res=16) 
+dab69169e2a39b9204df75ebd7cd1c15|file:///home/igor/physio/test.py|10|25|v|python
+	/home/igor/physio/mimicIsample/037/03700009
+571ecb6eb7681549b23e073a8f2d9ded|file:///home/igor/physio/test.py|10|46|v|python
+	05500001
+27a9c470c928e16bad4994008f6b4462|file:///home/igor/.config/coc/extensions/package.json|4|27|V|json
+	    "coc-bookmark": ">=1.3.2",
+b1b17b6ae4d405ab77ab0cfb8a876024|file:///home/igor/.config/nvim/plug-config/coc/coc-extensions.vim|19|14|V|vim
+	  \ 'coc-bookmark',
