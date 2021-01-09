@@ -1,5 +1,19 @@
+[FileDialogSize]
+Height 1080=1080
+Width 2560=692
+
 [General]
-lastSaveFile=file:///home/igor/Pictures/Screenshot_20210108_110136.png
+lastSaveAsFile=file:///home/igor/Pictures/peakperformance.png
+lastSaveFile=file:///home/igor/Pictures/peakperformance.png
 
 [GuiConfig]
-cropRegion=0,0,0,0
+captureModeIndex=4
+cropRegion=1587,1285,256,256
+lastUsedSaveMode=0
+quitAfterSaveCopyExport=true
+window-position=2174,1258
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Pictures/peakperformance.png,file:$HOME/Pictures/peakperformance.png
+Recent URLs[$e]=file:$HOME/Pictures/
+detailViewIconSize=0

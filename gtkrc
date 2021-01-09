@@ -1,40 +1,40 @@
-# created by KDE Plasma, sex jan 8 23:19:43 2021
+# created by KDE Plasma, sáb jan 9 09:44:13 2021
 #
 style "default"
 {
-  bg[NORMAL] = { 0.192, 0.212, 0.231 }
-  bg[SELECTED] = { 0.239, 0.682, 0.914 }
-  bg[INSENSITIVE] = { 0.192, 0.212, 0.231 }
-  bg[ACTIVE] = { 0.169, 0.184, 0.204 }
-  bg[PRELIGHT] = { 0.192, 0.212, 0.231 }
+  bg[NORMAL] = { 0.157, 0.157, 0.157 }
+  bg[SELECTED] = { 0.408, 0.616, 0.416 }
+  bg[INSENSITIVE] = { 0.157, 0.157, 0.157 }
+  bg[ACTIVE] = { 0.137, 0.137, 0.137 }
+  bg[PRELIGHT] = { 0.157, 0.157, 0.157 }
 
-  base[NORMAL] = { 0.137, 0.149, 0.161 }
-  base[SELECTED] = { 0.239, 0.682, 0.914 }
-  base[INSENSITIVE] = { 0.192, 0.212, 0.231 }
-  base[ACTIVE] = { 0.239, 0.682, 0.914 }
-  base[PRELIGHT] = { 0.239, 0.682, 0.914 }
+  base[NORMAL] = { 0.157, 0.157, 0.157 }
+  base[SELECTED] = { 0.408, 0.616, 0.416 }
+  base[INSENSITIVE] = { 0.157, 0.157, 0.157 }
+  base[ACTIVE] = { 0.408, 0.616, 0.416 }
+  base[PRELIGHT] = { 0.408, 0.616, 0.416 }
 
-  text[NORMAL] = { 0.937, 0.941, 0.945 }
-  text[SELECTED] = { 0.937, 0.941, 0.945 }
-  text[INSENSITIVE] = { 0.169, 0.184, 0.204 }
-  text[ACTIVE] = { 0.937, 0.941, 0.945 }
-  text[PRELIGHT] = { 0.937, 0.941, 0.945 }
+  text[NORMAL] = { 0.922, 0.859, 0.698 }
+  text[SELECTED] = { 0.922, 0.859, 0.698 }
+  text[INSENSITIVE] = { 0.137, 0.137, 0.137 }
+  text[ACTIVE] = { 0.922, 0.859, 0.698 }
+  text[PRELIGHT] = { 0.922, 0.859, 0.698 }
 
-  fg[NORMAL] = { 0.937, 0.941, 0.945 }
-  fg[SELECTED] = { 0.937, 0.941, 0.945 }
-  fg[INSENSITIVE] = { 0.169, 0.184, 0.204 }
-  fg[ACTIVE] = { 0.937, 0.941, 0.945 }
-  fg[PRELIGHT] = { 0.937, 0.941, 0.945 }
+  fg[NORMAL] = { 0.922, 0.859, 0.698 }
+  fg[SELECTED] = { 0.922, 0.859, 0.698 }
+  fg[INSENSITIVE] = { 0.137, 0.137, 0.137 }
+  fg[ACTIVE] = { 0.922, 0.859, 0.698 }
+  fg[PRELIGHT] = { 0.922, 0.859, 0.698 }
 }
 
 class "*" style "default"
 
 style "ToolTip"
 {
-  bg[NORMAL] = { 0.192, 0.212, 0.231 }
-  base[NORMAL] = { 0.192, 0.212, 0.231 }
-  text[NORMAL] = { 0.937, 0.941, 0.945 }
-  fg[NORMAL] = { 0.937, 0.941, 0.945 }
+  bg[NORMAL] = { 0.157, 0.157, 0.157 }
+  base[NORMAL] = { 0.157, 0.157, 0.157 }
+  text[NORMAL] = { 0.922, 0.859, 0.698 }
+  fg[NORMAL] = { 0.922, 0.859, 0.698 }
 }
 
 widget "gtk-tooltip" style "ToolTip"
@@ -43,8 +43,8 @@ widget "gtk-tooltip*" style "ToolTip"
 
 style "MenuItem"
 {
-  bg[PRELIGHT] = { 0.239, 0.682, 0.914 }
-  fg[PRELIGHT] = { 0.937, 0.941, 0.945 }
+  bg[PRELIGHT] = { 0.408, 0.616, 0.416 }
+  fg[PRELIGHT] = { 0.922, 0.859, 0.698 }
 }
 
 class "*MenuItem" style "MenuItem"

@@ -1,13 +1,16 @@
 [DownloadDialog Settings]
-Height 1080=675
-Width 2560=1005
+Height 1080=813
+Width 2560=1033
 
 [FileDialogSize]
-Height 1080=1080
-Width 2560=884
+Height 1080=1079
+Width 2560=1513
 
 [KFileDialog Settings]
-detailViewIconSize=0
+Recent Files[$e]=gruvboxwpp.jpg,file:$HOME/Pictures/peakperformance.png,file:$HOME/Pictures/gruvboxwpp.jpg
+Recent URLs[$e]=file:$HOME/Pictures/
+detailViewIconSize=20
+iconViewIconSize=63
 
 [KPropertiesDialog]
 Height 1080=437

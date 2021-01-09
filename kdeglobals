@@ -2,36 +2,38 @@
 update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,icons_remove_effects.upd:IconsRemoveEffects,kwin.upd:animation-speed
 
 [ColorEffects:Disabled]
+ChangeSelectionColor=
 Color=56,56,56
 ColorAmount=0
 ColorEffect=0
-ContrastAmount=0.65
+ContrastAmount=0.65000000000000002
 ContrastEffect=1
-IntensityAmount=0.1
+Enable=
+IntensityAmount=0.10000000000000001
 IntensityEffect=2
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
 Color=112,111,110
-ColorAmount=0.025
+ColorAmount=0.025000000000000001
 ColorEffect=2
-ContrastAmount=0.1
+ContrastAmount=0.10000000000000001
 ContrastEffect=2
-Enable=false
+Enable=true
 IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=77,77,77
-BackgroundNormal=49,54,59
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=189,195,199
-ForegroundLink=41,128,185
+BackgroundAlternate=60,56,54
+BackgroundNormal=40,40,40
+DecorationFocus=104,157,106
+DecorationHover=131,165,152
+ForegroundActive=142,192,124
+ForegroundInactive=55,115,117
+ForegroundLink=184,187,38
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=239,240,241
+ForegroundNormal=235,219,178
 ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
@@ -50,63 +52,64 @@ ForegroundPositive=17,209,22
 ForegroundVisited=61,174,230
 
 [Colors:Selection]
-BackgroundAlternate=29,153,243
-BackgroundNormal=61,174,233
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
+BackgroundAlternate=142,192,124
+BackgroundNormal=104,157,106
+DecorationFocus=104,157,106
+DecorationHover=131,165,152
 ForegroundActive=252,252,252
-ForegroundInactive=239,240,241
+ForegroundInactive=235,219,178
 ForegroundLink=253,188,75
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=239,240,241
+ForegroundNormal=235,219,178
 ForegroundPositive=39,174,96
 ForegroundVisited=189,195,199
 
 [Colors:Tooltip]
-BackgroundAlternate=77,77,77
-BackgroundNormal=49,54,59
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=189,195,199
-ForegroundLink=41,128,185
+BackgroundAlternate=60,56,54
+BackgroundNormal=40,40,40
+DecorationFocus=104,157,106
+DecorationHover=131,165,152
+ForegroundActive=184,187,38
+ForegroundInactive=55,115,117
+ForegroundLink=142,192,124
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=239,240,241
+ForegroundNormal=235,219,178
 ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [Colors:View]
-BackgroundAlternate=49,54,59
-BackgroundNormal=35,38,41
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=189,195,199
-ForegroundLink=41,128,185
+BackgroundAlternate=60,56,54
+BackgroundNormal=40,40,40
+DecorationFocus=104,157,106
+DecorationHover=131,165,152
+ForegroundActive=184,187,38
+ForegroundInactive=55,115,117
+ForegroundLink=142,192,124
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=239,240,241
+ForegroundNormal=235,219,178
 ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [Colors:Window]
-BackgroundAlternate=77,77,77
-BackgroundNormal=49,54,59
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=189,195,199
-ForegroundLink=41,128,185
+BackgroundAlternate=60,56,54
+BackgroundNormal=40,40,40
+DecorationFocus=104,157,106
+DecorationHover=131,165,152
+ForegroundActive=184,187,38
+ForegroundInactive=55,115,117
+ForegroundLink=142,192,124
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=239,240,241
+ForegroundNormal=235,219,178
 ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [General]
-ColorScheme=BreezeDark
+BrowserApplication=firefox.desktop
+ColorScheme=GruvboxColors
 Name=Breeze Dark
 TerminalApplication=kitty
 dbfile=/home/igor/.mozilla/firefox/ai9s3u2n.default/places.sqlite
@@ -118,7 +121,7 @@ toolBarFont=SF Pro Display,10,-1,5,57,0,0,0,0,0,Medium
 widgetStyle=Breeze
 
 [Icons]
-Theme=breeze-dark
+Theme=Gruvbox
 
 [KDE]
 ColorScheme=Breeze
@@ -142,13 +145,13 @@ Sort by=Name
 Sort directories first=true
 Sort reversed=false
 Speedbar Width=129
-View Style=DetailTree
+View Style=Simple
 
 [WM]
-activeBackground=49,54,59
-activeBlend=255,255,255
+activeBackground=39,39,39
+activeBlend=235,219,178
 activeFont=SF Pro Display,10,-1,5,57,0,0,0,0,0,Medium
-activeForeground=239,240,241
-inactiveBackground=49,54,59
-inactiveBlend=75,71,67
-inactiveForeground=127,140,141
+activeForeground=235,219,178
+inactiveBackground=40,40,40
+inactiveBlend=60,56,54
+inactiveForeground=204,190,155

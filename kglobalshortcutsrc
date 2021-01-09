@@ -24,10 +24,14 @@ _k_friendly_name=KDE Daemon
 display=Display\tMeta+P,Display\tMeta+P,Switch Display
 
 [khotkeys]
-_k_friendly_name=KDE Daemon
+_k_friendly_name=System Settings
+{56574350-874b-4b95-bd20-db20c4477f82}=none,none,New Action
 {57294dbe-03b7-4e97-b1ee-ae751f12996c}=Meta+Z,none,kitty-term
+{65d3134b-4c43-4531-9534-d86cc5cb40d7}=Print,none,flameshot
+{8727fbb0-e140-4b4c-be45-8c75c86ad3f6}=none,none,New Action
 {cd649452-856b-48d8-a4ea-e9bc9282ed63}=Ctrl+Alt+T,none,Launch Konsole
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=,none,Search
+{d0fc09ac-56ee-4d2b-8046-84a2c7956986}=Meta+F,none,firefox
 
 [kmix]
 _k_friendly_name=Audio Volume
@@ -131,7 +135,7 @@ Window Fullscreen=none,none,Make Window Fullscreen
 Window Grow Horizontal=none,none,Pack Grow Window Horizontally
 Window Grow Vertical=none,none,Pack Grow Window Vertically
 Window Lower=none,none,Lower Window
-Window Maximize=Meta+PgUp,Meta+PgUp,Maximize Window
+Window Maximize=Meta+Del,Meta+PgUp,Maximize Window
 Window Maximize Horizontal=none,none,Maximize Window Horizontally
 Window Maximize Vertical=none,none,Maximize Window Vertically
 Window Minimize=Meta+End,Meta+PgDown,Minimize Window
@@ -215,12 +219,12 @@ _k_friendly_name=Emoji Selector
 _launch=Meta+.,Meta+.,Emoji Selector
 
 [org.kde.spectacle.desktop]
-ActiveWindowScreenShot=Meta+Print,Meta+Print,Capture Active Window
+ActiveWindowScreenShot=none,Meta+Print,Capture Active Window
 CurrentMonitorScreenShot=,none,Capture Current Monitor
-FullScreenScreenShot=Shift+Print,Shift+Print,Capture Entire Desktop
-RectangularRegionScreenShot=Meta+Shift+Print,Meta+Shift+Print,Capture Rectangular Region
+FullScreenScreenShot=none,Shift+Print,Capture Entire Desktop
+RectangularRegionScreenShot=none,Meta+Shift+Print,Capture Rectangular Region
 _k_friendly_name=Spectacle
-_launch=Print,Print,Launch Spectacle
+_launch=none,Print,Launch Spectacle
 
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Decrease Keyboard Brightness
