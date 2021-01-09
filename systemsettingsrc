@@ -1,0 +1,29 @@
+[DownloadDialog Settings]
+Height 1080=675
+Width 2560=1005
+
+[FileDialogSize]
+Height 1080=1080
+Width 2560=884
+
+[KFileDialog Settings]
+detailViewIconSize=0
+
+[KPropertiesDialog]
+Height 1080=437
+Width 2560=393
+
+[MainWindow]
+Height 1080=700
+Height 2560=700
+Height 768=691
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABAAAAAK8AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1024=891
+Width 1080=1024
+Width 2560=1024
+
+[Open-with settings]
+CompletionMode=1
+History=kitty,ulaun
