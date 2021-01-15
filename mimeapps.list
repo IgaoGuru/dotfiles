@@ -2,6 +2,7 @@
 inode/directory=thunar.desktop;
 text/html=org.gnome.Builder.desktop;nvim.desktop;
 text/plain=org.kde.kate.desktop;
+application/pdf=okularApplication_pdf.desktop;
 
 [Default Applications]
 inode/directory=thunar.desktop;

@@ -630,3 +630,177 @@ e43c3eae9558a80a4fc340d2cb65893c|file:///home/igor/.zshrc|1|40|v|zsh
 	source $HOME/.config/zsh/prompt.zsh
 17938482cd22b1badfb720fc8c1fc447|file:///home/igor/.zshrc|2|7|V|zsh
 	source 
+4be0d8e27831da76a37b6f1666700539|file:///home/igor/.bashrc|134|13|V|sh
+	export TERM=kitty
+755875796e38e9c382e729ef3fbabd9f|file:///home/igor/.config/kitty/kitty.conf|22|1|V|conf
+	background #1E1E1E
+cc5db288dfffbad8fa0ff41d468291d2|file:///home/igor/.config/kitty/kitty.conf|25|1|V|conf
+	selection_background #d4be98
+	selection_foreground #1E1E1E
+	
+	background_opacity 1
+	
+	cursor #a89984
+	cursor_text_color background
+	
+	active_tab_background #282828
+	active_tab_foreground #d4be98
+	active_tab_font_style bold
+	inactive_tab_background #282828
+	inactive_tab_foreground #a89984
+	inactive_tab_font_style normal
+	
+1e897675684959616ee6c926aa427b8e|file:///home/igor/.config/kitty/kitty.conf|23|1|V|conf
+	foreground #d4be98
+96e9662da5818c1fedef391f79fdd108|file:///home/igor/.config/kitty/kitty.conf|26|1|V|conf
+	
+	background_opacity 1
+	
+	cursor #a89984
+	cursor_text_color background
+	
+	active_tab_background #282828
+	active_tab_foreground #d4be98
+	active_tab_font_style bold
+	inactive_tab_background #282828
+	inactive_tab_foreground #a89984
+	inactive_tab_font_style normal
+	
+f399a35ae6d69885259ae0d516cfec81|file:///home/igor/.vimrc|24|1|V|vim
+	" clear after exit
+	command Qc :call ClearAndExit()
+	function ClearAndExit()
+	    :!clear
+	    :q!
+	endfunction
+	
+cd880b726e0a0dbd4237f10d15da46f4|file:///home/igor/.zshrc|7|6|v|zsh
+	kitty
+4c077d714704f33cc247768a1f53e68b|file:///home/igor/.bashrc|60|44|v|sh
+	slkdfj
+5a5a72eb81bf34906e667b6aeae9a664|file:///home/igor/.bashrc|61|97|v|sh
+	\[\e[m\]\w
+ec17d78e686498bb42623185ffedecbe|file:///home/igor/.bashrc|61|97|v|sh
+	[\e[m\]\[\e[35m\]\w\[\e[m\]
+d175ad8706be6f91af76019d257db556|file:///home/igor/.bashrc|61|51|v|sh
+	\[\e[35m\][\[\e[m\]\u\[\e[35m\]]\[\e[m\]\[\e[32m\] @ [\[\e[m\]\[\e[35m\]\w\[\e[m\]\[\e[32m\]]\[\e[m\] '
+ac52408facc3187375efe20d2d3923f4|file:///home/igor/.vimrc|24|1|V|vim
+	set colorscheme = "onedark"
+e114d67f6c17a814152bd397a44f69d5|file:///home/igor/.config/nvim/themes/spaceline.vim|2|32|v|vim
+	onedark
+a82fd95db10ff25dfad39f07372ebe37|file:///home/igor/.config/nvim/themes/spaceline.vim|2|32|v|vim
+	dark
+c20c35ef53bf1b70789ce94e66800147|file:///home/igor/physio/test.py|10|36|v|python
+	Downloads
+e904640e6b5720d0ce38c0d80d5646df|file:///home/igor/.config/nvim/plug-config/start-screen.vim|10|1|V|vim
+	                        \'          _____                    _____                    _____                    _____         ' 
+2de07ef85c5d2ebf5a53296d7b288096|file:///home/igor/.config/nvim/plug-config/start-screen.vim|13|1|V|vim
+	                        \'       /::::\    \              /:::/    /               /::::\    \              /:::/    /       '  
+2688b47b88b607581d586e8f973ea946|file:///home/igor/.config/nvim/plug-config/start-screen.vim|10|1|v|vim
+	                        
+c652c20924dfb07970dc05c962fd584e|file:///home/igor/.config/nvim/plug-config/start-screen.vim|11|1|v|vim
+	\'        /::
+e9fff3ada7f44ab0ada19267cf10a309|file:///home/igor/.config/nvim/plug-config/start-screen.vim|10|105|v|vim
+	         /\    \                  /\    \                  /\    \                  /\    \        ' 
+ff2364a0be3d20e46cc69efb36afe9a5|file:///home/igor/.config/nvim/themes/spaceline.vim|2|32|v|vim
+	space
+e03239b27e34a5f7f3bde739459dd537|file:///home/igor/.config/nvim/themes/spaceline.vim|2|32|v|vim
+	galaxy
+334c4a4c42fdb79d7ebc3e73b517e6f8|file:///home/igor/.config/nvim/themes/spaceline.vim|1|34|v|vim
+	none
+0d58cc69d4adc8630af99d2e07e5b5c0|file:///home/igor/physio/test.py|19|1|v|python
+	print(
+f7531e2d0ea27233ce00b5f01c5bf335|file:///home/igor/physio/test.py|19|1|v|python
+	print
+cd1de12e113eaea8e79c89f66f35e948|file:///home/igor/physio/test.py|19|22|V|python
+	c1 = c1[~np.isnan(c1)]
+107d5ce1aacebf789663fa3e074a22a1|file:///home/igor/physio/test.py|18|32|v|python
+	nans
+21715ef611a443fcd18c4113f97c3740|file:///home/igor/physio/test.py|23|1|V|python
+	    print(f'nan percentage c1: {np.count_nonzero(np.isnan(c1)) / c1.shape[0]}')
+0af1a635cf41db69b098123cabf61e20|file:///home/igor/physio/test.py|20|5|v|python
+	rol_idx
+c485d2ed5cc4ce64fcccca710c7a0bb7|file:///home/igor/physio/test.py|20|5|v|python
+	channel
+6412b80f0701a910951fed3523772d28|file:///home/igor/physio/test.py|17|26|V|python
+	c1 = record.p_signal[:,0]
+	c1 = c1[~np.isnan(c1)] #remove NANs from channel
+5b2418cc4db4c97b6bf38211b232e6ce|file:///home/igor/physio/test.py|24|39|v|python
+	 (loss)
+d5dc44c05ef34f7ce2a5ad32311e007e|file:///home/igor/physio/test.py|17|7|V|python
+	#print 
+fc79abc2b996d05e893de5c8683f55b8|file:///home/igor/physio/test.py|23|42|v|python
+	np.count_nonzero(np.isnan(chan)) / chan.shape[0]
+976ab8d0068d503134134bea32e14c87|file:///home/igor/physio/mimic3wdb.sh|7|1|V|sh
+	
+	display_usage() { 
+		echo "$(basename "$0") [-h] [-w | -m] -- program to download the waveforms from MIMIC II WDB" 
+		echo 
+		echo "Usage:"
+		echo "    -h, --help		Show this help text"
+		echo "    -m, --matched 	Download the matched waveforms"
+		echo "    -w, --waveforms	Download the waveforms"
+		echo 
+		} 
+	
+04dc41c0795c13650c2056938a69018a|file:///home/igor/physio/mimic3wdb.sh|7|1|V|sh
+	Waveforms()
+	{
+		bucket='physionet-pds';
+		prefix='PhysioBank';
+		database='mimic2wdb';
+		RealDB='mimic3wdb';
+		# parse the XML provided by AWS for this bucket and compile list of child keys
+		# directories=$(wget --quiet -O - "https://s3.amazonaws.com/$bucket/$prefix/$database/RECORDS");
+		directories=$(wget --quiet -O - "https://s3.amazonaws.com/$bucket/$prefix/$database/RECORDS");
+		for directory in $directories; do
+			printf '\n%s %s' 'Working with ' "$RealDB/$directory";
+			files=$(wget --quiet -O - "http://$bucket.s3.amazonaws.com/?prefix=$prefix/$database/$directory" | grep -Eo '<Key>[^<]+' | cut -c6-);
+			fcount=0;
+			for f in $files; do
+				outdir=$(dirname ${f/#$prefix})
+				outdir=${outdir#/$database}
+				outdir=$RealDB$outdir
+				if [ ! -d ".$outdir" ]; then
+					mkdir -p "$outdir";
+				fi
+				filename=$(basename "$f");
+				wget --no-clobber --quiet --output-document="$outdir/$filename" "https://s3.amazonaws.com/$bucket/$f"
+		     	fcount=$((fcount+1));
+			done
+			printf '\n%s %d %s\n' 'FINISHED - Downloaded ' $fcount ' files.';
+		done
+	}
+	
+68934a3e9455fa72420237eb05902327|file:///home/igor/physio/mimic3wdb.sh|33|9|v|sh
+	false
+cbd378d3e37cd7388bc27778777c5d18|file:///home/igor/physio/mimic3wdb.sh|38|1|V|sh
+	while getopts ":hmw" arg; do
+	  case $arg in
+	    m) Matched=true
+	      ;;
+	    w) Wave=true
+	      ;;
+	    h | *) # Display help.
+	      display_usage
+	      exit 0
+	      ;;
+	  esac
+	done
+	
+0d6e25a2c25f7465cf4d8c72bbbb5daa|file:///home/igor/physio/mimic3wdb.sh|36|12|V|sh
+	[ $# -eq 0 ] && display_usage
+285c4b629c396703438fd76aee431c25|file:///home/igor/physio/mimic3wdb.sh|36|1|V|sh
+	if $Matched; then Matched_Waveforms; fi
+f730b05ffa82e483a68f49f7c1b92d48|file:///home/igor/physio/mimic3wdb.sh|37|1|V|sh
+	if $Wave; then Waveforms; fi
+a9778b350e4553281e75790c834bace3|file:///home/igor/physio/mimic3wdb.sh|34|1|V|sh
+	Wave=false
+882c565ab236115634fe3e21e427c8b6|file:///home/igor/physio/mimic3wdb.sh|3|45|v|sh
+	wbucket
+1de95f080dc14a38012d93da4b109d69|file:///home/igor/physio/mimic3wdb.sh|3|59|v|sh
+	$prefix
+d4e4e5f0a4498077954d60da7c973ef1|file:///home/igor/physio/mimic3wdb.sh|3|70|v|sh
+	$database
+cdbdb6367d1ecdbf82f8c155fe436193|file:///home/igor/physio/mimic3wdb.sh|3|59|V|sh
+	wget --quiet -O - "https://s3.amazonaws.com/physionet-pds/$prefix/$database/matched/RECORDS

@@ -17,8 +17,8 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][1][ConfigDialog]
-DialogHeight=420
-DialogWidth=560
+DialogHeight=780
+DialogWidth=681
 
 [Containments][1][Configuration]
 PreloadWeight=0
@@ -28,7 +28,7 @@ ToolBoxButtonState=topcenter
 ToolBoxButtonX=1059
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///home/igor/Pictures/gruvboxwpp.jpg
+Image=file:///home/igor/Pictures/mountain3.jpeg
 
 [Containments][2]
 ItemGeometriesHorizontal=
@@ -48,8 +48,7 @@ DialogWidth=560
 PreloadWeight=0
 
 [Containments][2][Wallpaper][org.kde.image][General]
-FillMode=3
-Image=file:///home/igor/Pictures/gruvboxwpp.jpg
+Image=file:///home/igor/Pictures/mountain3.jpeg
 
 [Containments][3]
 activityId=
@@ -67,12 +66,19 @@ plugin=org.kde.plasma.minimizeall
 [Containments][3][Applets][10][Configuration]
 PreloadWeight=0
 
+[Containments][3][Applets][10][Configuration][ConfigDialog]
+DialogHeight=420
+DialogWidth=560
+
+[Containments][3][Applets][10][Shortcuts]
+global=Meta+Shift+_
+
 [Containments][3][Applets][4]
 immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][3][Applets][4][Configuration]
-PreloadWeight=92
+PreloadWeight=85
 
 [Containments][3][Applets][4][Configuration][ConfigDialog]
 DialogHeight=420

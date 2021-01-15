@@ -1,0 +1,28 @@
+[Desktop Entry]
+FullScreen=false
+
+[FileDialogSize]
+Height 1080=1080
+Width 2560=692
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Downloads/paperINv.pdf,file:$HOME/Downloads/paperINv.pdf
+Recent URLs[$e]=file:$HOME/Downloads/
+iconViewIconSize=43
+
+[MainWindow]
+Height 1080=1080
+Height 2560=2560
+State=AAAA/wAAAAD9AAAAAAAABDgAAAP4AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1080=1080
+Width 2560=1080
+
+[Notification Messages]
+presentationInfo=false
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/PerIoT2021.pdf
+File2[$e]=$HOME/Downloads/paperINv.pdf
+Name1[$e]=PerIoT2021.pdf
+Name2[$e]=paperINv.pdf

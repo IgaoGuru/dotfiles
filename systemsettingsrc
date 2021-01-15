@@ -3,11 +3,11 @@ Height 1080=813
 Width 2560=1033
 
 [FileDialogSize]
-Height 1080=1079
-Width 2560=1513
+Height 1080=1080
+Width 2560=692
 
 [KFileDialog Settings]
-Recent Files[$e]=gruvboxwpp.jpg,file:$HOME/Pictures/peakperformance.png,file:$HOME/Pictures/gruvboxwpp.jpg
+Recent Files[$e]=gruvboxwpp.jpg,file:$HOME/Pictures/mountain3.jpeg,file:$HOME/Pictures/peakperformance.png,file:$HOME/Pictures/gruvboxwpp.jpg
 Recent URLs[$e]=file:$HOME/Pictures/
 detailViewIconSize=20
 iconViewIconSize=63
@@ -18,7 +18,7 @@ Width 2560=393
 
 [MainWindow]
 Height 1080=700
-Height 2560=700
+Height 2560=704
 Height 768=691
 MenuBar=Disabled
 State=AAAA/wAAAAD9AAAAAAAABAAAAAK8AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA

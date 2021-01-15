@@ -1,0 +1,23 @@
+# GIMP action-history
+
+(history-item "tools-opacity-decrease" 3)
+(history-item "select-invert" 1)
+(history-item "select-all" 1)
+(history-item "tools-rect-select" 2)
+(history-item "tools-warp" 0)
+(history-item "tools-vector" 0)
+(history-item "tools-move" 0)
+(history-item "filters-invert-perceptual" 1)
+(history-item "layers-duplicate" 1)
+(history-item "file-open" 0)
+(history-item "dialogs-preferences" 0)
+(history-item "image-duplicate" 0)
+(history-item "file-save" 0)
+(history-item "tools-fuzzy-select" 0)
+(history-item "tools-pencil" 0)
+(history-item "layers-edit" 0)
+(history-item "edit-fill-pattern" 0)
+(history-item "tools-paintbrush" 0)
+(history-item "file-quit" 1)
+
+# end of action-history

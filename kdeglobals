@@ -147,6 +147,9 @@ Sort reversed=false
 Speedbar Width=129
 View Style=Simple
 
+[KShortcutsDialog Settings]
+Dialog Size=600,480
+
 [WM]
 activeBackground=39,39,39
 activeBlend=235,219,178

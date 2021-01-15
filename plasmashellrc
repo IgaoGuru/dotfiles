@@ -3,9 +3,10 @@ Height 1080=1080
 Width 2560=692
 
 [KFileDialog Settings]
-Recent Files[$e]=gruvboxwpp.jpg,file:$HOME/Pictures/mountain.jpeg,file:$HOME/Pictures/houseonlake.jpg,file:$HOME/Pictures/gruvboxwpp.jpg
+Recent Files[$e]=gruvboxwpp.jpg,file:$HOME/Pictures/mountain3.jpeg,file:$HOME/Pictures/mtfuji.jpg,file:$HOME/Pictures/mountain.jpeg,file:$HOME/Pictures/houseonlake.jpg,file:$HOME/Pictures/gruvboxwpp.jpg
 Recent URLs[$e]=file:$HOME/Pictures/
 detailViewIconSize=0
+iconViewIconSize=43
 
 [PlasmaRunnerManager]
 LaunchCounts=4 services_firefox.desktop,1 services_ulauncher.desktop,4 services_systemsettings.desktop,3 services_org.kde.konsole.desktop,2 services_kcm_kscreen.desktop,2 services_keys.desktop

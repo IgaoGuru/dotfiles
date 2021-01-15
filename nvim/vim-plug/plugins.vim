@@ -113,6 +113,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'szw/vim-maximizer'
     " Neovim in Browser
     Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+    " Relative line numbers
+    Plug 'jeffkreeftmeijer/vim-numbertoggle'
+
     " Rainbow brackets
     " Plug 'luochen1990/rainbow'
     " Async Linting Engine
